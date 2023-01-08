@@ -6,11 +6,7 @@ Console.WriteLine("Hello, World!");
 
 
     Player james = new Player("James", 1);
-    james.gb.InitialGreeting();
-    james.inv.Add(23,120);
-    james.inv.Add(34,300);
-    james.inv.Subtract(23, 119);
-    james.inv.Subtract(1,2);
+    
 
 
 

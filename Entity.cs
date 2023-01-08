@@ -2,9 +2,14 @@
 
 public class Entity
 {
-    public int type = new int();
-    public float[] pos = new float[2];
+    protected int type = new int();
+    protected float[] pos = new float[2];
     
+    protected string name;
+    protected newGreetBehaviours gb;
+    protected Inventory inv;
+    protected TransactionBroker tb;
+
     
     public struct Attributes {
       private int strength;

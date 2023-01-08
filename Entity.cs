@@ -11,31 +11,31 @@ public class Entity
     protected TransactionBroker tb;
 
     
-    public struct Attributes {
-      private int strength;
-      private int endurance;
-      private int dexterity;
-      private int charisma;
-      private int inteligence;
-      private int spirit;
+    protected struct Attributes {
+      public int strength;
+      public int endurance;
+      public int dexterity;
+      public int charisma;
+      public int inteligence;
+      public int spirit;
       
     }
 
-    public struct Skills
+    protected struct Skills
     {
-        private int gathering;
-        private int hunting;
-        private int cooking;
-        private int cleaning;
-        private int navigation;
-        private int leadership;
-        private int fealty;
-        private int heavy_weapons;
-        private int light_weapons;
-        private int dark_magic;
-        private int holy_magic;
-        private int missile_weapons;
-        private int treachary;
+        public int gathering;
+        public int hunting;
+        public int cooking;
+        public int cleaning;
+        public int navigation;
+        public int leadership;
+        public int fealty;
+        public int heavy_weapons;
+        public int light_weapons;
+        public int dark_magic;
+        public int holy_magic;
+        public int missile_weapons;
+        public int treachary;
     }
 
 }

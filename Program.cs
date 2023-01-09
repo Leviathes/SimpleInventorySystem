@@ -2,9 +2,21 @@
 
 using Projects;
 
-Console.WriteLine("Hello, World!");
+Player p = new Player();
 
+bool isQuit = false;
 
-    Player james = new Player("James", 1);
+while (!isQuit)
+{
+    var input = Console.ReadLine();
+    if (input == "quit")
+    {
+        Console.WriteLine("Are you sure you want to exit? (Y/n)");
+        if (Console.ReadLine() == "y" || Console.ReadLine() == "Y")
+        {
+            isQuit = true;
+        }
+    }
+}
     
     

@@ -8,5 +8,13 @@ public class Player : Entity
         this.type = type;
     }
 
+    public Player()
+    {
+        Console.Write("Name: ");
+        var input = Console.ReadLine();
+        name = input;
+        Console.WriteLine("Welcome," + name + "!");
+    }
+
 
 }

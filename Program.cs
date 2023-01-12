@@ -17,6 +17,20 @@ while (!isQuit)
             isQuit = true;
         }
     }
+    else
+    {
+        string[] words = input.Split(" ");
+        string firstword = words[0];
+        
+        switch (firstword)
+        {
+            case "visit" :
+                p.Visit(words[1]);
+                break;
+        }
+    }
+
+    
 }
     
     

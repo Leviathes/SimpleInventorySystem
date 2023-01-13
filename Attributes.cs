@@ -18,4 +18,5 @@ public struct Attributes
         inteligence = 1;
         spirit = 1;
     }
+    
 }

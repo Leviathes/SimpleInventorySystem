@@ -16,5 +16,10 @@ public class Player : Entity
         Console.WriteLine("Welcome," + name + "!");
     }
 
+    public void Visit(string place)
+    {
+        
+    }
+
 
 }

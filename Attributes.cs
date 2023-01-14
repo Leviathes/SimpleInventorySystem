@@ -1,6 +1,6 @@
 ﻿namespace Projects;
 
-public struct Attributes
+public class Attributes
 {
     private int strength { get; set; }
     private int endurance { get; set; }

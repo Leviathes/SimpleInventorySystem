@@ -60,7 +60,7 @@ crashlytics-build.properties
 #IDE settings and stuff
 .vscode/
 .fleet/
-/bin/
+bin/
 
 
-C:\DEV\C#\Projects\Terminal_app\SimpleInventorySystem\bin\Debug\net6.0\Projects.dll
+bin\Debug\net6.0\Projects.dll

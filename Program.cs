@@ -22,7 +22,7 @@ while (!isQuit)
         string[] words = input.Split(" ");
         string firstword = words[0];
         
-        switch (firstword)
+        switch (firstword.ToLower())
         {
             case "visit" :
                 p.Visit(words[1]);

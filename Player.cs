@@ -2,12 +2,13 @@
 
 public class Player : Entity
 {
-    private string[] PlacesKnown;
+    
     
     public Player(string name, int type) {
         this.name = name;
         this.type = type;
-        PlacesKnown = new string[0];
+        
+    
     }
 
     public Player()
@@ -17,27 +18,31 @@ public class Player : Entity
         name = input;
         Console.WriteLine("Welcome," + name + "!");
         type = 1;
-        PlacesKnown = new string[0];
+
+
     }
 
     public void Visit(string place)
     {
+        var val = "";
         switch (place)
         {
             case "-h": 
-                Console.WriteLine("Here is a list of the places you can visit currently:");
+                Console.WriteLine("|--------------------------------------------------------|");
+                Console.WriteLine("| Here is a list of the places you can currently visit:  |");
                 ShowPlacesKnown();
                 break;
-                
+            case "grensten" :
+                Console.WriteLine(Locations.Grentia.name);
+                break;
         }
     }
 
     public void ShowPlacesKnown()
     {
-        for (int i = 0; i < PlacesKnown.Length; ++i)
-        {
-            Console.WriteLine(PlacesKnown[i]);
-        }
+       
+        
+        Console.WriteLine("|\n|");
     }
 
 
